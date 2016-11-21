@@ -1,0 +1,29 @@
+/**
+ * Created by carson on 2016/11/4.
+ */
+
+.body-viewport {
+    background-color: #ff5150;
+
+    .global-header {
+        background-color: #ff5150;
+    }
+}
+
+.sortable {
+    background: #f8f8f8;
+	.ui-cell {
+		background-color: #fff;
+	}
+	.drag-handle{
+		color: #999;
+	    width: 32px;
+	    display: inline-block;
+	    height: 22px;
+	    text-align: right;
+	    line-height: 22px;
+	}
+}
+
+@import "../widgets/base";
+@import "../widgets/header";

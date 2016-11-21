@@ -1,0 +1,21 @@
+<header class="global-header">
+	<a href="javascript:history.go(-1)" class="back"><i class="icon icon-back"></i></a>
+	<a href="javascript:void(0);" class="exit"><i class="icon icon-exit"></i></a>
+	<h1>angular sortable</h1>
+</header>
+
+<!-- container 都属于页面级的内容 -->
+<main data-role="page" ng-controller="sortableController">
+	<section class="container sortable">
+		<ul class="ui-cells ui-border-tb" id="listName">
+			<li class="ui-cell ui-border-b" ng-repeat="key in data">
+				<div class="ui-cell-bd">
+					<p class="name">{{key.name}}</p>
+				</div>
+				<div class="ui-cell-ft">
+					<a class="drag-handle">☰</a>
+				</div>
+			</li>
+		</ul>
+	</section>
+</main>
