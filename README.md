@@ -1,6 +1,6 @@
 # angular-sortablejs
 
-### 拖拽排序
+### mobile 拖拽排序
 
 需要插件 sortablejs.js
 
